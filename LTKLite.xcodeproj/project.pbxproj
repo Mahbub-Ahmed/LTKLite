@@ -26,6 +26,8 @@
 		E2990E0A2B67702800FBF23D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E092B67702800FBF23D /* Profile.swift */; };
 		E2990E0C2B67705900FBF23D /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E0B2B67705900FBF23D /* Meta.swift */; };
 		E2990E0E2B67706900FBF23D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E0D2B67706900FBF23D /* Feed.swift */; };
+		E2990E102B67711100FBF23D /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E0F2B67711100FBF23D /* ViewState.swift */; };
+		E2990E122B67712A00FBF23D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E112B67712A00FBF23D /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		E2990E092B67702800FBF23D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E2990E0B2B67705900FBF23D /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
 		E2990E0D2B67706900FBF23D /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		E2990E0F2B67711100FBF23D /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		E2990E112B67712A00FBF23D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				E2990E002B676F0500FBF23D /* ImageCache.swift */,
+				E2990E0F2B67711100FBF23D /* ViewState.swift */,
+				E2990E112B67712A00FBF23D /* ViewModel.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -319,9 +325,11 @@
 			files = (
 				E2990DCD2B676AED00FBF23D /* ContentView.swift in Sources */,
 				E2990E0A2B67702800FBF23D /* Profile.swift in Sources */,
+				E2990E102B67711100FBF23D /* ViewState.swift in Sources */,
 				E2990DCB2B676AED00FBF23D /* LTKLiteApp.swift in Sources */,
 				E2990E0E2B67706900FBF23D /* Feed.swift in Sources */,
 				E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */,
+				E2990E122B67712A00FBF23D /* ViewModel.swift in Sources */,
 				E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */,
 				E2990E082B67700100FBF23D /* Link.swift in Sources */,
 				E2990E042B676FBD00FBF23D /* LTKModel.swift in Sources */,

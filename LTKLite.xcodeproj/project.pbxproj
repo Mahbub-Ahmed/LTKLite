@@ -37,6 +37,8 @@
 		E2990E242B67739E00FBF23D /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E232B67739E00FBF23D /* DetailsViewModel.swift */; };
 		E2990E262B6773DF00FBF23D /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E252B6773DF00FBF23D /* ProductView.swift */; };
 		E2990E282B6773FC00FBF23D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E272B6773FC00FBF23D /* DetailsView.swift */; };
+		E2990E2B2B6774DD00FBF23D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E2A2B6774DD00FBF23D /* WebView.swift */; };
+		E2990E2D2B67750900FBF23D /* ProductWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E2C2B67750900FBF23D /* ProductWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		E2990E232B67739E00FBF23D /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		E2990E252B6773DF00FBF23D /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		E2990E272B6773FC00FBF23D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		E2990E2A2B6774DD00FBF23D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E2990E2C2B67750900FBF23D /* ProductWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		E2990DC92B676AED00FBF23D /* LTKLite */ = {
 			isa = PBXGroup;
 			children = (
+				E2990E292B6774B800FBF23D /* WebViewFlow */,
 				E2990E202B67737300FBF23D /* DetailsFlow */,
 				E2990E132B67719700FBF23D /* FeedFlow */,
 				E2990E022B676F9800FBF23D /* Model */,
@@ -234,6 +239,15 @@
 				E2990E272B6773FC00FBF23D /* DetailsView.swift */,
 			);
 			path = DetailsFlow;
+			sourceTree = "<group>";
+		};
+		E2990E292B6774B800FBF23D /* WebViewFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E2990E2A2B6774DD00FBF23D /* WebView.swift */,
+				E2990E2C2B67750900FBF23D /* ProductWebView.swift */,
+			);
+			path = WebViewFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +395,7 @@
 				E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */,
 				E2990E082B67700100FBF23D /* Link.swift in Sources */,
 				E2990E042B676FBD00FBF23D /* LTKModel.swift in Sources */,
+				E2990E2B2B6774DD00FBF23D /* WebView.swift in Sources */,
 				E2990DF82B676D6A00FBF23D /* NetworkService.swift in Sources */,
 				E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */,
 				E2990E262B6773DF00FBF23D /* ProductView.swift in Sources */,
@@ -390,6 +405,7 @@
 				E2990E0C2B67705900FBF23D /* Meta.swift in Sources */,
 				E2990DF62B676D5900FBF23D /* Network.swift in Sources */,
 				E2990E222B67738400FBF23D /* ProductViewData.swift in Sources */,
+				E2990E2D2B67750900FBF23D /* ProductWebView.swift in Sources */,
 				E2990DFA2B676D7A00FBF23D /* NetworkTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

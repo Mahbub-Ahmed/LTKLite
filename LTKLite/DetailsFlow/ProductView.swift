@@ -15,7 +15,7 @@ struct ProductView: View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
             ForEach(viewModel.products) { product in
                 NavigationLink {
-                    EmptyView()
+                    ProductWebView(url: product.hyperlink)
                 } label: {
                     if let uiImage = viewModel.images[product.imageUrl] {
                         Image(uiImage: uiImage)

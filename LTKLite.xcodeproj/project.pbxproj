@@ -33,6 +33,10 @@
 		E2990E192B67720A00FBF23D /* FeedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E182B67720A00FBF23D /* FeedTarget.swift */; };
 		E2990E1D2B67724800FBF23D /* FeeedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E1C2B67724800FBF23D /* FeeedGridView.swift */; };
 		E2990E1F2B67728100FBF23D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E1E2B67728100FBF23D /* FeedView.swift */; };
+		E2990E222B67738400FBF23D /* ProductViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E212B67738400FBF23D /* ProductViewData.swift */; };
+		E2990E242B67739E00FBF23D /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E232B67739E00FBF23D /* DetailsViewModel.swift */; };
+		E2990E262B6773DF00FBF23D /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E252B6773DF00FBF23D /* ProductView.swift */; };
+		E2990E282B6773FC00FBF23D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E272B6773FC00FBF23D /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,10 @@
 		E2990E182B67720A00FBF23D /* FeedTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTarget.swift; sourceTree = "<group>"; };
 		E2990E1C2B67724800FBF23D /* FeeedGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeedGridView.swift; sourceTree = "<group>"; };
 		E2990E1E2B67728100FBF23D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		E2990E212B67738400FBF23D /* ProductViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewData.swift; sourceTree = "<group>"; };
+		E2990E232B67739E00FBF23D /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		E2990E252B6773DF00FBF23D /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		E2990E272B6773FC00FBF23D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 		E2990DC92B676AED00FBF23D /* LTKLite */ = {
 			isa = PBXGroup;
 			children = (
+				E2990E202B67737300FBF23D /* DetailsFlow */,
 				E2990E132B67719700FBF23D /* FeedFlow */,
 				E2990E022B676F9800FBF23D /* Model */,
 				E2990DFF2B676EED00FBF23D /* Utility */,
@@ -214,6 +223,17 @@
 				E2990E1E2B67728100FBF23D /* FeedView.swift */,
 			);
 			path = FeedFlow;
+			sourceTree = "<group>";
+		};
+		E2990E202B67737300FBF23D /* DetailsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E2990E212B67738400FBF23D /* ProductViewData.swift */,
+				E2990E232B67739E00FBF23D /* DetailsViewModel.swift */,
+				E2990E252B6773DF00FBF23D /* ProductView.swift */,
+				E2990E272B6773FC00FBF23D /* DetailsView.swift */,
+			);
+			path = DetailsFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,16 +376,20 @@
 				E2990E1F2B67728100FBF23D /* FeedView.swift in Sources */,
 				E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */,
 				E2990E122B67712A00FBF23D /* ViewModel.swift in Sources */,
+				E2990E242B67739E00FBF23D /* DetailsViewModel.swift in Sources */,
+				E2990E282B6773FC00FBF23D /* DetailsView.swift in Sources */,
 				E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */,
 				E2990E082B67700100FBF23D /* Link.swift in Sources */,
 				E2990E042B676FBD00FBF23D /* LTKModel.swift in Sources */,
 				E2990DF82B676D6A00FBF23D /* NetworkService.swift in Sources */,
 				E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */,
+				E2990E262B6773DF00FBF23D /* ProductView.swift in Sources */,
 				E2990E062B676FE800FBF23D /* Product.swift in Sources */,
 				E2990E192B67720A00FBF23D /* FeedTarget.swift in Sources */,
 				E2990E1D2B67724800FBF23D /* FeeedGridView.swift in Sources */,
 				E2990E0C2B67705900FBF23D /* Meta.swift in Sources */,
 				E2990DF62B676D5900FBF23D /* Network.swift in Sources */,
+				E2990E222B67738400FBF23D /* ProductViewData.swift in Sources */,
 				E2990DFA2B676D7A00FBF23D /* NetworkTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

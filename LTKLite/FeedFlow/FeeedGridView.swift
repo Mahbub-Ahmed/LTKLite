@@ -16,7 +16,9 @@ struct FeeedGridView: View {
                 LazyVGrid(columns: [GridItem(.flexible())]) {
                     ForEach(viewModel.ltks) { ltk in
                         NavigationLink {
-                            EmptyView()
+                            DetailsView(viewModel: DetailsViewModel(ltk: ltk,
+                                                             profile: viewModel.profiles[ltk.profileId]!,
+                                                             products: viewModel.products))
                         } label: {
                             if let image = viewModel.images[ltk.imageUrl] {
                                 Image(uiImage: image)

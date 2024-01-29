@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E2990DCB2B676AED00FBF23D /* LTKLiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DCA2B676AED00FBF23D /* LTKLiteApp.swift */; };
-		E2990DCD2B676AED00FBF23D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DCC2B676AED00FBF23D /* ContentView.swift */; };
 		E2990DCF2B676AF000FBF23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2990DCE2B676AF000FBF23D /* Assets.xcassets */; };
 		E2990DD22B676AF000FBF23D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2990DD12B676AF000FBF23D /* Preview Assets.xcassets */; };
 		E2990DDC2B676AF000FBF23D /* LTKLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DDB2B676AF000FBF23D /* LTKLiteTests.swift */; };
@@ -61,7 +60,6 @@
 /* Begin PBXFileReference section */
 		E2990DC72B676AED00FBF23D /* LTKLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2990DCA2B676AED00FBF23D /* LTKLiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKLiteApp.swift; sourceTree = "<group>"; };
-		E2990DCC2B676AED00FBF23D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2990DCE2B676AF000FBF23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2990DD12B676AF000FBF23D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2990DD72B676AF000FBF23D /* LTKLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTKLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,7 +149,6 @@
 				E2990DFF2B676EED00FBF23D /* Utility */,
 				E2990DF42B676D2E00FBF23D /* Network */,
 				E2990DCA2B676AED00FBF23D /* LTKLiteApp.swift */,
-				E2990DCC2B676AED00FBF23D /* ContentView.swift */,
 				E2990DCE2B676AF000FBF23D /* Assets.xcassets */,
 				E2990DD02B676AF000FBF23D /* Preview Content */,
 			);
@@ -380,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2990DCD2B676AED00FBF23D /* ContentView.swift in Sources */,
 				E2990E152B6771B300FBF23D /* FeedViewModel.swift in Sources */,
 				E2990E0A2B67702800FBF23D /* Profile.swift in Sources */,
 				E2990E102B67711100FBF23D /* ViewState.swift in Sources */,

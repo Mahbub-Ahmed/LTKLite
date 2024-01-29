@@ -11,7 +11,8 @@ import SwiftUI
 struct LTKLiteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedView()
+                .padding()
         }
     }
 }

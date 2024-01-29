@@ -21,6 +21,9 @@ struct FeedView: View {
                 VStack {
                     Text("Unable to load feed")
                     Image(systemName: "exclamationmark.square")
+                    Button("Refresh Data") {
+                        viewModel.loadFeed()
+                    }
                 }
             }
         }

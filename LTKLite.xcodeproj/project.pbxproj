@@ -19,6 +19,7 @@
 		E2990DFA2B676D7A00FBF23D /* NetworkTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DF92B676D7A00FBF23D /* NetworkTarget.swift */; };
 		E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DFB2B676D8400FBF23D /* NetworkError.swift */; };
 		E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DFD2B676D9100FBF23D /* HTTPMethod.swift */; };
+		E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E002B676F0500FBF23D /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E2990DF92B676D7A00FBF23D /* NetworkTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTarget.swift; sourceTree = "<group>"; };
 		E2990DFB2B676D8400FBF23D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		E2990DFD2B676D9100FBF23D /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		E2990E002B676F0500FBF23D /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E2990DC92B676AED00FBF23D /* LTKLite */ = {
 			isa = PBXGroup;
 			children = (
+				E2990DFF2B676EED00FBF23D /* Utility */,
 				E2990DF42B676D2E00FBF23D /* Network */,
 				E2990DCA2B676AED00FBF23D /* LTKLiteApp.swift */,
 				E2990DCC2B676AED00FBF23D /* ContentView.swift */,
@@ -148,6 +151,14 @@
 				E2990DFD2B676D9100FBF23D /* HTTPMethod.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		E2990DFF2B676EED00FBF23D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E2990E002B676F0500FBF23D /* ImageCache.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				E2990DCD2B676AED00FBF23D /* ContentView.swift in Sources */,
 				E2990DCB2B676AED00FBF23D /* LTKLiteApp.swift in Sources */,
+				E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */,
 				E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */,
 				E2990DF82B676D6A00FBF23D /* NetworkService.swift in Sources */,
 				E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */,

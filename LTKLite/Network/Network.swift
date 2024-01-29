@@ -20,8 +20,13 @@ final class Network: NetworkService {
     
     
     func fetchImage(for urlString: String) async throws -> Data {
+        /// If we have the image in chache return chaced image
+        if let imageData = ImageCache.shared.image(for: urlString) { return imageData }
+        
         guard let url = URL(string: urlString) else { throw NetworkError.invalidURL }
+        
         let (data, _) = try await URLSession.shared.data(from: url)
+        ImageCache.shared.cahce(image: data, for: urlString)
         return data
     }
 }

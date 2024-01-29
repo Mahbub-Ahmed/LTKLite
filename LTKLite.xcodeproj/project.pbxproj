@@ -20,6 +20,12 @@
 		E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DFB2B676D8400FBF23D /* NetworkError.swift */; };
 		E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990DFD2B676D9100FBF23D /* HTTPMethod.swift */; };
 		E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E002B676F0500FBF23D /* ImageCache.swift */; };
+		E2990E042B676FBD00FBF23D /* LTKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E032B676FBD00FBF23D /* LTKModel.swift */; };
+		E2990E062B676FE800FBF23D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E052B676FE800FBF23D /* Product.swift */; };
+		E2990E082B67700100FBF23D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E072B67700100FBF23D /* Link.swift */; };
+		E2990E0A2B67702800FBF23D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E092B67702800FBF23D /* Profile.swift */; };
+		E2990E0C2B67705900FBF23D /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E0B2B67705900FBF23D /* Meta.swift */; };
+		E2990E0E2B67706900FBF23D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2990E0D2B67706900FBF23D /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		E2990DFB2B676D8400FBF23D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		E2990DFD2B676D9100FBF23D /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		E2990E002B676F0500FBF23D /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		E2990E032B676FBD00FBF23D /* LTKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKModel.swift; sourceTree = "<group>"; };
+		E2990E052B676FE800FBF23D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E2990E072B67700100FBF23D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		E2990E092B67702800FBF23D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E2990E0B2B67705900FBF23D /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		E2990E0D2B67706900FBF23D /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 		E2990DC92B676AED00FBF23D /* LTKLite */ = {
 			isa = PBXGroup;
 			children = (
+				E2990E022B676F9800FBF23D /* Model */,
 				E2990DFF2B676EED00FBF23D /* Utility */,
 				E2990DF42B676D2E00FBF23D /* Network */,
 				E2990DCA2B676AED00FBF23D /* LTKLiteApp.swift */,
@@ -159,6 +172,19 @@
 				E2990E002B676F0500FBF23D /* ImageCache.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		E2990E022B676F9800FBF23D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2990E032B676FBD00FBF23D /* LTKModel.swift */,
+				E2990E052B676FE800FBF23D /* Product.swift */,
+				E2990E072B67700100FBF23D /* Link.swift */,
+				E2990E092B67702800FBF23D /* Profile.swift */,
+				E2990E0B2B67705900FBF23D /* Meta.swift */,
+				E2990E0D2B67706900FBF23D /* Feed.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +318,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2990DCD2B676AED00FBF23D /* ContentView.swift in Sources */,
+				E2990E0A2B67702800FBF23D /* Profile.swift in Sources */,
 				E2990DCB2B676AED00FBF23D /* LTKLiteApp.swift in Sources */,
+				E2990E0E2B67706900FBF23D /* Feed.swift in Sources */,
 				E2990E012B676F0500FBF23D /* ImageCache.swift in Sources */,
 				E2990DFE2B676D9100FBF23D /* HTTPMethod.swift in Sources */,
+				E2990E082B67700100FBF23D /* Link.swift in Sources */,
+				E2990E042B676FBD00FBF23D /* LTKModel.swift in Sources */,
 				E2990DF82B676D6A00FBF23D /* NetworkService.swift in Sources */,
 				E2990DFC2B676D8400FBF23D /* NetworkError.swift in Sources */,
+				E2990E062B676FE800FBF23D /* Product.swift in Sources */,
+				E2990E0C2B67705900FBF23D /* Meta.swift in Sources */,
 				E2990DF62B676D5900FBF23D /* Network.swift in Sources */,
 				E2990DFA2B676D7A00FBF23D /* NetworkTarget.swift in Sources */,
 			);
